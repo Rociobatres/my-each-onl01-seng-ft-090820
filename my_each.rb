@@ -1,7 +1,7 @@
 def my_each(array) 
   while (array).size > 1 
     if block_given?
-      yield array[element]
+      yield array
     else
       "You need a block bro." 
     end 
